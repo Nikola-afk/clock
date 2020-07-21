@@ -1,0 +1,33 @@
+.clock-div {
+  margin-top: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 240px;
+  display: flexbox;
+  border-style: solid;
+  border: 3px solid whitesmoke;
+  background-color: #282c34;
+  pointer-events: none;
+  justify-content: center;
+  text-align: center;
+  width: 60%; /*Takes 90% width from WebContainer*/
+  margin: auto;
+}
+.h-1 {
+  position: relative;
+  color: #61dafb;
+  font-size: 40px;
+}
+.span-1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 23px;
+}
+.span-2 {
+  display: flex;
+  margin-top: 15px;
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  font-size: 23px;
+}
